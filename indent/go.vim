@@ -20,9 +20,9 @@ setlocal autoindent
 setlocal indentexpr=GoIndent(v:lnum)
 setlocal indentkeys+=<:>,0=},0=)
 setlocal noexpandtab
-setlocal shiftwidth=4
-setlocal tabstop=4
-setlocal softtabstop=4
+setlocal shiftwidth=8
+setlocal tabstop=8
+setlocal softtabstop=8
 
 if exists("*GoIndent")
   finish
