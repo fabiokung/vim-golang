@@ -19,6 +19,7 @@ setlocal nolisp
 setlocal autoindent
 setlocal indentexpr=GoIndent(v:lnum)
 setlocal indentkeys+=<:>,0=},0=)
+setlocal noexpandtab
 
 if exists("*GoIndent")
   finish
